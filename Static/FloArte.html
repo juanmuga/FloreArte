@@ -1,8 +1,8 @@
 <!DOCTYPE .html>
-<html>
+<html lang="es">
 	
 	<head>
-		<title>Pagina Muestra Flo</title>
+		<title>FloArte</title>
 		<link rel="stylesheet" type="text/css" href="FloArte.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,56 +13,76 @@
 
 
 	<body>
-
+	
 	<div class="maincontainer">	
 
-		<nav class="childbox">
-			<div class="nav-wrapper navigationBar">
-      			<a href="#" class="brand-logo"> FloreArte</a>
-      			<ul id="nav-mobile" class="right hide-on-med-and-down">
-        			<li><a href="sass.html">Home</a></li>
-        			<li><a href="badges.html">Florencia</a></li>
-        			<li><a href="badges.html">Galeria</a></li>
-        			<li><a href="collapsible.html">Contacto</a></li>
-        			
-      			</ul>
-    		</div>
+		<nav class="childbox nav-wrapper navigationBar">
+			
+				<div class="childboxNav">
+					<a href="#" class="brand-logo "> FloreArte</a>
+				</div>
+      			
+      			<div class="childboxNav">
+      				<ul id="nav-mobile" class="right hide-on-med-and-down">
+        				<li><a href="sass.html">Home</a></li>
+        				<li><a href="badges.html">Florencia</a></li>
+        				<li><a href="badges.html">Galeria</a></li>
+        				<li><a href="collapsible.html">Contacto</a></li>
+        		
+      				</ul>
+      			</div>
+      			
+    		
 		</nav>
 
-
+		<section>
 		<div class="nombreArtista childbox">
 			<div>
 				<h3>Florencia Echesortu</h3>
 			</div>
 		</div>
 
-		<div class="childbox">
-			<div>
-				<img class="materialboxed"  src="Img/monet.jpg">
+		<hr>
+		</section>
+
+		<section>
+		<div class="childbox ">
+			
+				<img class="materialboxed"  src="Img/monet.jpg" alt="cuadro Monet">
+			
+		</div>
+		</section>
+
+		<div class="childbox containerbio">
+			<div class="childbox ">
+			<h5>Sobre el Artista</h5>
+
 			</div>
+			
+			<div>
+				<img src="">
+			</div>
+
+			<div class= "childbox bio">
+				<p class="parrafo">   Oscar-Claude Monet was a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature, especially as applied to plein-air landscape painting.</p> 
+			</div>
+
 		</div>
 
 
-<!--TESTING -->
-<div></div>
 
-
-
-
-
-
-
+		
 		<div class="childbox container">
     			<div class="slider childboxslider">
     				<ul class="slides">
       					<li>
-        					<img src="Img/monet2.jpg"> <!-- random image -->
+        					<img src="Img/monet2.jpg" alt="cuadro Monet"> <!-- random image -->
         				 </li>
         				 <li>
-        					<img src="Img/monet3.jpg"> <!-- random image -->
+        					<img src="Img/monet3.jpg" alt="cuadro Monet"> <!-- random image -->
         				 </li>
         				 <li>
-        					<img src="Img/monet4.jpg"> <!-- random image -->
+        					<img src="Img/monet4.jpg" alt="cuadro Monet"> <!-- random image -->
         				 </li>
         			</ul>
         	       
@@ -70,21 +90,41 @@
 
 			
 		</div>
-
 		
-		
-		<div class="childbox containerbio">
-			<div class="childbox ">
-			<h5>Sobre el Artista</h5>
+		<div class="gallery">
+			<ul class="collapsible" data-collapsible="expandable" style="width: 742px;">
+   				 <li>
+     				 <div class="collapsible-header"><i class="material-icons">oldStuff</i></div>
+     		 		 <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+   				 </li>
+    			<li>
+      				<div class="collapsible-header"><i class="material-icons">newStuff</i></div>
+      				<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    			</li>
+    			<li>
+      				<div class="collapsible-header"><i class="material-icons">onTheWay</i></div>
+     		 		<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    			</li>
+  			</ul>
+	
 
+
+
+
+			<div class="oldStuff">
+				
+			</div>
+
+			<div class="newStuff">
+				
 			</div>
 			
-			<div class= "childbox bio">
-				<p class="parrafo">   Oscar-Claude Monet was a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature, especially as applied to plein-air landscape painting.</p> 
-			</div>
-
 		</div>
-	</div>	
+		
+		<section>
+		
+		</div>	
+		</section>
 		<footer>
 			
 		</footer>
