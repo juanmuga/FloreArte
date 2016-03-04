@@ -27,7 +27,14 @@
     justify-content: flex-start;
     align-content: stretch;
     align-items: center;
+
+    margin-top: 40px;
 }
+
+.nombreArtista{
+    margin-top: 100px;
+}
+
 
 .materialboxed{
 	border-radius: 50%;
@@ -45,7 +52,7 @@
     flex: 0 1 auto;
     align-self: auto;
 
-    margin-top: 200px;
+    margin-top: 50px;
     box-shadow: 10px -10px 10px #888888;
 
 }
@@ -60,6 +67,16 @@
     justify-content: space-around;
     align-content: stretch;
     align-items: flex-start;
+
+    position: fixed; 
+    top: 0;
+    border-bottom: none;
+    z-index: 999;
+ 
+}
+
+#galeria{
+    margin-bottom: 100px;
 }
 
 .brand-logo{
@@ -112,6 +129,7 @@
 
 .gallery {
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .oldStuffFather{
@@ -154,4 +172,30 @@
       
 }
 
+.contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
 
+    min-height: 10%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+.contacto1{
+    margin-left: 20px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.contacto2{
+    margin-right: 20px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+}
