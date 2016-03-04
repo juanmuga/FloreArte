@@ -79,6 +79,9 @@
     padding: 1px;
     background: #00000000;
     border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 
     margin-left: 10%;
     margin-right: 10%;
@@ -95,6 +98,12 @@
 	
 }
 
+.face{
+        max-height: 150px;
+        border-radius: 50%;
+}
+
+
 .parrafo{
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
@@ -104,4 +113,45 @@
 .gallery {
     margin-top: 50px;
 }
+
+.oldStuffFather{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.oldStuffChild{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    max-width: 30%;
+      
+}
+
+.newStuffFather{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.newStuffChild{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    max-width: 30%;
+      
+}
+
 
